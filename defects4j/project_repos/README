@@ -1,0 +1,8 @@
+Repositories updated: 06/2016
+
+jfreechart:       Synchronized with SourceForge
+commons-math:     Cloned from Apache (http://git.apache.org/commons-math.git)
+commons-lang:     Cloned from Apache (http://git.apache.org/commons-lang.git)
+closure-compiler: Cloned from Google Code (https://code.google.com/p/closure-compiler)
+JodaTime:         Cloned from GitHub (https://github.com/JodaOrg/joda-time.git)
+Mockito:          Cloned from GitHub (https://github.com/mockito/mockito.git)
