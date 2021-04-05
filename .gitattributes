@@ -1,0 +1,2 @@
+defects4j/project_repos/defects4j-repos.zip filter=lfs diff=lfs merge=lfs -text
+defects4j/project_repos/mockito.git/objects/pack/pack-08e4f83761cae77d9071dcac1006297ee44e4436.pack filter=lfs diff=lfs merge=lfs -text
