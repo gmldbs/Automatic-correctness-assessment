@@ -1,3 +1,4 @@
+source ~/.bashrc
 mkdir /defects4j/TBarResult
 python3 kinds.py | while read line
 do
