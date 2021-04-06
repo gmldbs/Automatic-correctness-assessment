@@ -1,3 +1,4 @@
+mkdir /defects4j/TBarResult
 python3 kinds.py | while read line
 do
 #bug_info=($line)
@@ -16,7 +17,7 @@ do
     defects4j fault-localization -w /TBar/D4J/projects/Chart_8
     python3 /defects4j/preprocess.py /TBar/D4J/projects/Chart_8/sfl/txt/line.ochiai.ranking.csv Chart_8
     cd /TBar
-    mkdir /defects4j/TBarResult
+    
     ./NormalFLTBarRunner.sh /TBar/D4J/projects/ Chart_8 /TBar/D4J/defects4j/ > /defects4j/TBarResult/Chart_8
     break
 done
